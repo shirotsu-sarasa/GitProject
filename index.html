@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>BLUE PET</title>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <nav>
+                <div class="innerArea">
+                    <div class="logoBlock">
+                        <a href="#">
+                            <span class="img"><img src="./images/logo.png" alt="BLUE PET"></span>
+                        </a>
+                    </div>
+                    <div class="searchBlock">
+                        <form>
+                            <input type="txt" placeholder="商品名を入力">
+                        </form>
+                        <span class="btn"></span>
+                    </div>
+                    <div class="menuBlock">
+                        <a href="#">
+                            <span class="img">
+                                <img src="./images/cart.png" alt="カート">
+                                <span class="txt">カート</span>
+                            </span>
+                        </a>
+                        <a href="#">
+                            <span class="img">
+                                <img src="./images/login.png" alt="ログイン">
+                                <span class="txt">ログイン</span>
+                            </span>
+                        </a>
+                        <a href="#">
+                            <span class="img">
+                                <img src="./images/contact.png" alt="お問い合わせ">
+                                <span class="txt">お問い合わせ</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <header>
+                <div class="mainSlider">
+                    <div class="carousel">
+                        <ul class="list">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                            <li>8</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="subSlider">
+                    <div class="carousel">
+                        <ul class="list">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                            <li>8</li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="leftArea">
+                    <p class="ttl">アイテムを探す</p>
+                    <div class="listBlock">
+                        <input type="checkbox" id="category_1">
+                        <label for="category_1" class="category">
+                            <span class="txt">犬用品カテゴリ</span>
+                        </label>
+                        <ul class="list">
+                            <li><a href="#">ドッグフード・おやつ</a></li>
+                            <li><a href="#">サプリメント</a></li>
+                            <li><a href="#">室内用品</a></li>
+                            <li><a href="#">ベッド</a></li>
+                            <li><a href="#">おもちゃ</a></li>
+                            <li><a href="#">首輪・ハーネス・リード</a></li>
+                            <li><a href="#">ウェア（犬服）</a></li>
+                            <li><a href="#">お出かけ・お散歩</a></li>
+                        </ul>
+                    </div>
+                    <div class="listBlock">
+                        <input type="checkbox" id="category_2">
+                        <label for="category_2" class="category">
+                            <span class="txt">猫用品カテゴリ</span>
+                        </label>
+                        <ul class="list">
+                            <li><a href="#">キャットフード・おやつ</a></li>
+                            <li><a href="#">サプリメント</a></li>
+                            <li><a href="#">室内用品</a></li>
+                            <li><a href="#">ベッド</a></li>
+                            <li><a href="#">おもちゃ</a></li>
+                            <li><a href="#">首輪・ハーネス・リード</a></li>
+                            <li><a href="#">ウェア（猫服）</a></li>
+                            <li><a href="#">お出かけ・お散歩</a></li>
+                        </ul>
+                    </div>
+                    <div class="listBlock">
+                        <input type="checkbox" id="category_3">
+                        <label for="category_3" class="category">
+                            <span class="txt">小動物用品カテゴリ</span>
+                        </label>
+                        <ul class="list">
+                            <li><a href="#">キャットフード・おやつ</a></li>
+                            <li><a href="#">サプリメント</a></li>
+                            <li><a href="#">室内用品</a></li>
+                            <li><a href="#">ベッド</a></li>
+                            <li><a href="#">おもちゃ</a></li>
+                            <li><a href="#">首輪・ハーネス・リード</a></li>
+                            <li><a href="#">ウェア</a></li>
+                            <li><a href="#">お出かけ・お散歩</a></li>
+                        </ul>
+                    </div>
+                </div><!-- /.leftArea -->
+                <div class="rightArea">
+                    <div class="infoBlock">
+                        <p class="ttl">BLUEPETからのお知らせ</p>
+                        <ul class="list">
+                            <li>
+                                <span class="date">2020/03/01</span>
+                                <span class="txt"><a href="#">コロナウイルスの影響による荷物のお届け遅延について</a></span>
+                            </li>
+                            <li>
+                                <span class="date">2019/12/14</span>
+                                <span class="txt attention"><a href="#">システムメンテナンスのお知らせ</a></span>
+                            </li>
+                            <li>
+                                <span class="date">2019/08/08</span>
+                                <span class="txt"><a href="#">帝国ホテル店オープンのお知らせ</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <section class="productsBlock">
+                        <div class="head badge">
+                            <h1><span class="txt">新作・特集</span></h1>
+                            <span class="more"><a href="#">すべての新作・特集を見る</a></span>
+                        </div>
+                        <div class="carousel">
+                            <p class="next"></p>
+                            <p class="prev"></p>
+                            <ul class="list">
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">猫用カーペット特集 1</span>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">猫用カーペット特集 2</span>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">猫用カーペット特集 3</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="productsBlock">
+                        <div class="head flag">
+                            <h2><span class="txt">犬の人気商品</span></h2>
+                            <span class="more"><a href="#">すべての犬の人気商品を見る</a></span>
+                        </div>
+                        <div class="carousel">
+                            <p class="next"></p>
+                            <p class="prev"></p>
+                            <ul class="list">
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ウォーターサーバー始めました</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ウォーターサーバー始めました</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ウォーターサーバー始めました</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ウォーターサーバー始めました</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ウォーターサーバー始めました</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ウォーターサーバー始めました</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="productsBlock">
+                        <div class="head flag">
+                            <h2><span class="txt">猫の人気商品</span></h2>
+                            <span class="more"><a href="#">すべての猫の人気商品を見る</a></span>
+                        </div>
+                        <div class="carousel">
+                            <p class="next"></p>
+                            <p class="prev"></p>
+                            <ul class="list">
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ペット用PC/タブレット</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ペット用PC/タブレット</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ペット用PC/タブレット</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ペット用PC/タブレット</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ペット用PC/タブレット</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ペット用PC/タブレット</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ペット用PC/タブレット</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ペット用PC/タブレット</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ペット用PC/タブレット</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ペット用PC/タブレット</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ペット用PC/タブレット</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ペット用PC/タブレット</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ペット用PC/タブレット</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ペット用PC/タブレット</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ペット用PC/タブレット</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">
+                                        <span class="img"></span>
+                                        <span class="txt">ペット用PC/タブレット</span>
+                                        <span class="price">¥12,000</span>
+                                        <ul class="star">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <div class="bannerBlock">
+                        <div class="item">
+                            <a href="#"><span class="img"><img src="./images/banner01.png" alt="キャンペーン1"></span></a>
+                            <a href="#"><span class="img"><img src="./images/banner02.png" alt="キャンペーン2"></span></a>
+                        </div>
+                    </div>
+                </div><!-- /.rightArea -->
+            </main>
+            <footer>
+                <div class="leftArea">
+                    <div class="listBlock">
+                        <p class="ttl"><span class="txt">ご利用ガイド</span></p>
+                        <ul class="list">
+                            <li><a href="#">初めてのお客様へ</a></li>
+                            <li><a href="#">BLUEPETについて</a></li>
+                            <li><a href="#">よくあるご質問</a></li>
+                            <li><a href="#">新着情報</a></li>
+                        </ul>
+                    </div>
+                    <div class="listBlock">
+                        <p class="ttl"><span class="txt">商品紹介</span></p>
+                        <ul class="list">
+                            <li><a href="#">犬用商品</a></li>
+                            <li><a href="#">猫用商品</a></li>
+                            <li><a href="#">小型動物用商品</a></li>
+                            <li><a href="#">ゴリラ用商品</a></li>
+                            <li><a href="#">その他</a></li>
+                        </ul>
+                    </div>
+                    <div class="listBlock">
+                        <p class="ttl"><span class="txt"><a href="#">求人情報</a></span></p>
+                        <p class="ttl"><span class="txt"><a href="#">プライバシポリシー</a></span></p>
+                        <p class="ttl"><span class="txt"><a href="#">株式会社blue</a></span></p>
+                    </div>
+                </div>
+                <div class="rightArea">
+                    <div class="logoBlock">
+                        <span class="img"><img src="./images/logo.png" alt="BLUE PET"></span>
+                    </div>
+                    <div class="listBlock">
+                        <p class="txt">SNS情報はこちらから</p>
+                        <ul class="list">
+                            <li><a href="#"><span class="img"><img src="./images/twetter.png" alt="twetter"></span></a></li>
+                            <li><a href="#"><span class="img"><img src="./images/facebook.png" alt="facebook"></span></a></li>
+                            <li><a href="#"><span class="img"><img src="./images/line.png" alt="line"></span></a></li>
+                            <li><a href="#"><span class="img"><img src="./images/instagram.png" alt="instagram"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="copyBlock">
+                        <p class="txt">(C) BLUEPET CO.,LTD All Rights Reserved.</p>
+                    </div>
+                </div>
+            </footer>
+        </div><!-- /.wrapper -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+        <script type="text/javascript" src="./js/common.js"></script>
+    </body>
+</html>
